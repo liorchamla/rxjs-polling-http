@@ -13,18 +13,20 @@
   <body class="container">
     <article>
       <header>
-        <h1 style="margin-bottom: 0">Regardons des chats !</h1>
-        <p>Galerie : <span id="status">Arrêtée</span></p>
+        <h1 style="margin-bottom: 0">Game of Thrones dans le texte</h1>
       </header>
 
-      <img
-        src="https://via.placeholder.com/600x400?text=En attente ..."
-        alt="En attente"
-      />
+      <h3 id="quote-character">Brandon Stark</h3>
+      <blockquote>
+        <em id="quote-text"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis,
+          quae tempora suscipit esse aspernatur.</em
+        >
+      </blockquote>
 
       <footer>
         <div class="grid">
-          <button id="start">Commencer</button>
+          <button id="start" aria-busy="false">Commencer</button>
           <button id="stop" class="secondary">Arrêter</button>
         </div>
       </footer>
